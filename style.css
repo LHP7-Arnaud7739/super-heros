@@ -1,11 +1,11 @@
 .img {
-    background-size: contain;
+    background-size: cover;
     background: url("image/super-heros-marvel-min.jpeg");
 
 background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+    height: 25vh;
+   
 
 }
 .background {
