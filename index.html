@@ -17,7 +17,7 @@
 
     <!-- Background image -->
 
-    <header class="header">
+    <header class="row">
 
 
 
@@ -46,11 +46,11 @@
             </a>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                <button class="btn btn-outline-success"data-bs-toggle="modal"data-bs-target="#" type="submit">Rechercher</button>
             </form>
         </div>
     </nav>
-    <!-- MODAL -->
+
     <div class="Background ml-5 mt-5 container">
 
 
@@ -67,7 +67,7 @@
                 <p class="text-center">
 
                     <ul>
-                        <li><u>Vrai Nom:</u> PARKER</li>
+                        <li><u>Vrai Nom:</u>Peter Parker</li>
 
                         <li><u>Job:</u> Photographe</li>
                     </ul>
@@ -94,19 +94,21 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <!-- IRONMAN -->
                         <tr>
-                            <td> <img class="test" src="image/ironman2.jpeg" alt=""></td>
+                            <td> <img class="test" src="image/ironman2.jpeg" alt="ironman"></td>
                             <td class="pt-4">Tony STARK</td>
                             <td class="pt-4">Iron-Man</td>
                             <td class="pt-2">
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModalCenter">
-                                    plus d'infos
+                                    data-bs-target="#ironman">
+                                    + d'infos?<br>
+                                    Frappe ici !!
                                 </button>
 
                                 <!-- Modal -->
-                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                <div class="modal fade" id="ironman" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
@@ -121,34 +123,37 @@
                                                 <!-- IRONMAN -->
                                                 <div class="col">
                                                     <h2 class="mt-2 text-center fw-normal"><u>IRON-MAN</u></h2>
-                                    
+
                                                     <img src="image/ironman2.jpeg" class="img-fluid" alt="spiderman">
-                                    
-                                                    <p class="text-center">Jarvis, il faut parfois savoir courir avant de savoir marcher.</p>
-                                    
+
+                                                    <p class="text-center">Jarvis, il faut parfois savoir courir avant
+                                                        de savoir marcher.</p>
+
                                                     <h3 class="text-center"><u>Super Pouvoirs</u></h3>
-                                                    <p>Son armure lui permet de voler, tirer des missiles, se battre…</p>
-                                                    <p class="text-center">
-                                    
-                                                        <ul>
-                                                            <li><u>Vrai Nom:</u> Tony STARK</li>
-                                    
-                                                            <li><u>Job:</u> PDG et ingénieur électricien de Stark Industries</li>
-                                                        </ul>
-                                    
-                                    
+                                                    <p>Son armure lui permet de voler, tirer des missiles, se battre…
                                                     </p>
-                                    
-                                    
-                                    
-                                    
-                                    
+                                                    <p class="text-center">
+
+                                                        <ul>
+                                                            <li><u>Vrai Nom:</u> Tony Stark</li>
+
+                                                            <li><u>Job:</u> PDG et ingénieur électricien de Stark
+                                                                Industries</li>
+                                                        </ul>
+
+
+                                                    </p>
+
+
+
+
+
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
 
-                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter">
+                                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                                    data-bs-target="#ironman">
                                                     Fermer
                                                 </button>
                                             </div>
@@ -156,63 +161,583 @@
                                     </div>
                                 </div>
 
-                                <!-- The Modal -->
+                            </td>
+                        </tr> <!-- The Modal -->
 
             </div>
-            </td>
-            </tr>
+
+
             <tr>
-                <td> <img class="test" src="image/rocket raccoon.jpeg" alt=""></td>
+                <!-- rocket -->
+                <td> <img class="test" src="image/rocket raccoon.jpeg" alt="rocket"></td>
                 <td class="pt-4">Rocket RACCOON</td>
                 <td class="pt-4">Ranger Rocket</td>
-                <td class="pt-4">@mdo</td>
-            </tr>
-            <tr>
-                <td> <img class="test" src="image/thanos.jpeg" alt=""></td>
-                <td class="pt-4">Thanos</td>
-                <td class="pt-4">Le titan fou</td>
-                <td class="pt-4">@mdo</td>
-            </tr>
-            <tr>
-                <td> <img class="test" src="image/hulk2.jpeg" alt=""></td>
-                <td class="pt-4">Bruce Banner</td>
-                <td class="pt-4">Hulk</td>
-                <td class="pt-4">@mdo</td>
-            </tr>
-            <tr>
-                <td> <img class="test" src="image/groot2.png" alt=""></td>
-                <td class="pt-4">Je s'appel Groot</td>
-                <td class="pt-4">Groot</td>
-                <td class="pt-4">@mdo</td>
-            </tr>
-            <tr>
-                <td> <img class="test" src="image/docteur strange.jpeg" alt=""></td>
-                <td class="pt-4">Stephen Strange</td>
-                <td class="pt-4">Docteur Strange</td>
-                <td class="pt-4">@mdo</td>
-            </tr>
-            <tr>
-                <td> <img class="test" src="image/black widow.jpeg" alt=""></td>
-                <td class="pt-4">Natasha Romanoff</td>
-                <td class="pt-4">Black Widow</td>
-                <td class="pt-4">@mdo</td>
-            </tr>
-            <tr>
-                <td> <img class="test" src="image/the-black-panther-film-marvel-e1547662141410.jpeg" alt=""></td>
-                <td class="pt-4">prince T'Challa</td>
-                <td class="pt-4">Black Panther</td>
-                <td class="pt-4">@mdo</td>
-            </tr>
-            <tr>
-                <td> <img class="test" src="image/thor.jpeg" alt=""></td>
-                <td class="pt-4">Thor Odinson</td>
-                <td class="pt-4">Thor</td>
-                <td class="pt-4">@mdo</td>
-            </tr>
-            </tbody>
-            </table>
+                <td class="pt-2">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#rocket">
+                        + d'infos?<br>
+                        Frappe ici !!
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="rocket" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <!-- <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                                <div class="modal-body">
+                                    <!-- ROCKET -->
+                                    <div class="col">
+                                        <h2 class="mt-2 text-center fw-normal"><u>ROCKET</u></h2>
+
+                                        <img src="image/rocket raccoon.jpeg" class="img-fluid" alt="spiderman">
+
+                                        <p class="text-center">Il me faut la jambe de ce mec.</p>
+
+                                        <h3 class="text-center"><u>Super Pouvoirs</u></h3>
+                                        <p>C'est un pilote accompli, excellent tireur, il sait utiliser tout type d'arme
+                                            à distance.</p>
+                                        <p class="text-center">
+
+                                            <ul>
+                                                <li><u>Vrai Nom:</u> Rocket Raccoon</li>
+
+                                                <li><u>Job:</u> Gardien de la galaxy</li>
+                                            </ul>
+
+
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+
+                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#rocket">
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- The Modal -->
 
         </div>
+        </td>
+        </tr>
+
+
+        <!-- thanos -->
+        <tr>
+            <td> <img class="test" src="image/thanos.jpeg" alt=""></td>
+            <td class="pt-4">Thanos</td>
+            <td class="pt-4">Le titan fou</td>
+            <td class="pt-2">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#thanos">
+                    + d'infos?<br>
+                    Frappe ici !!
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="thanos" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <!-- <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                            <div class="modal-body">
+                                <!--Thanos -->
+                                <div class="col">
+                                    <h2 class="mt-2 text-center fw-normal"><u>THANOS</u></h2>
+
+                                    <img src="image/thanos.jpeg" class="img-fluid" alt="thanos">
+
+                                    <p class="text-center">Clac !</p>
+
+                                    <h3 class="text-center"><u>Super Pouvoirs</u></h3>
+                                    <p>capable de synthétiser l'énergie cosmique dans un certain nombre d'effets</p>
+                                    <p class="text-center">
+
+                                        <ul>
+                                            <li><u>Vrai Nom:</u> Thanos</li>
+
+                                            <li><u>Job:</u> Conquérant</li>
+                                        </ul>
+
+
+                                    </p>
+
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#thanos">
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Modal -->
+
+    </div>
+    </td>
+    </tr>
+
+
+    <!-- hulk -->
+    <tr>
+        <td> <img class="test" src="image/hulk2.jpeg" alt=""></td>
+        <td class="pt-4">Bruce Banner</td>
+        <td class="pt-4">Hulk</td>
+        <td class="pt-2">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#hulk">
+                + d'infos?<br>
+                Frappe ici !!
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="hulk" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                        <div class="modal-body">
+                            <!-- hulk -->
+                            <div class="col">
+                                <h2 class="mt-2 text-center fw-normal"><u>HULK</u></h2>
+
+                                <img src="image/hulk2.jpeg" class="img-fluid" alt="hulk">
+
+                                <p class="text-center">Jarvis, il faut parfois savoir courir avant de savoir marcher.
+                                </p>
+
+                                <h3 class="text-center"><u>Super Pouvoirs</u></h3>
+                                <p>Sa peau verte, renforcée par les rayons gamma et qui lui ont donné sa couleur, lui
+                                    permet de résister à des chocs et des coups extrêmement violents.</p>
+                                <p class="text-center">
+
+                                    <ul>
+                                        <li><u>Vrai Nom:</u>Bruce Banner</li>
+
+                                        <li><u>Job:</u>Chercheur et physicien nucléaire</li>
+                                    </ul>
+
+
+                                </p>
+
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#hulk">
+                                Fermer
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Modal -->
+
+            </div>
+        </td>
+    </tr>
+
+
+    <!-- groot -->
+    <tr>
+        <td> <img class="test" src="image/groot2.png" alt=""></td>
+        <td class="pt-4">Je s'appel Groot</td>
+        <td class="pt-4">Groot</td>
+        <td class="pt-2">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#groot">
+                + d'infos?<br>
+                Frappe ici !!
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="groot" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                        <div class="modal-body">
+                            <!-- GROOT -->
+                            <div class="col">
+                                <h2 class="mt-2 text-center fw-normal"><u>GROOT</u></h2>
+
+                                <img src="image/groot2.png" class="img-fluid" alt="groot">
+
+                                <p class="text-center">Je s'appel GROOT !!!
+                                </p>
+
+                                <h3 class="text-center"><u>Super Pouvoirs</u></h3>
+                                <p>Force, endurance, durabilité et sens surhumains Immortalité Facteur guérisseur Élasticité/plasticité Manipulation des plantes Résistance au feu</p>
+                                <p class="text-center">
+
+                                    <ul>
+                                        <li><u>Vrai Nom:</u> Groot</li>
+
+                                        <li><u>Job:</u> Gardien de la galaxy</li>
+                                    </ul>
+
+
+                                </p>
+
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#groot">
+                                Fermer
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Modal -->
+
+            </div>
+        </td>
+    </tr>
+
+    <!-- dr Starnge -->
+
+    <tr>
+        <td> <img class="test" src="image/docteur strange.jpeg" alt=""></td>
+        <td class="pt-4">Stephen Strange</td>
+        <td class="pt-4">Docteur Strange</td>
+        <td class="pt-2">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#strange">
+                + d'infos?<br>
+                Frappe ici !!
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="strange" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                        <div class="modal-body">
+                            <!-- Dr STRANGE -->
+                            <div class="col">
+                                <h2 class="mt-2 text-center fw-normal"><u>Docteur Strange</u></h2>
+
+                                <img src="image/docteur strange.jpeg" class="img-fluid" alt="starnge">
+
+                                <p class="text-center">La souffrance est une vieille connaissance.
+
+                                <h3 class="text-center"><u>Super Pouvoirs</u></h3>
+                                <p>Ces capacités lui permettent notamment de recourir à la télépathie, la projection astrale, l'hypnose, de projeter des décharges d'énergie mystique</p>
+                                <p class="text-center">
+
+                                    <ul>
+                                        <li><u>Vrai Nom:</u> Stephen Strange</li>
+
+                                        <li><u>Job:</u>Ancien Neurochirurgien</li>
+                                    </ul>
+
+
+                                </p>
+
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#strange">
+                                Fermer
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Modal -->
+
+            </div>
+        </td>
+    </tr>
+
+    <!-- black widow             -->
+    <tr>
+        <td> <img class="test" src="image/black widow.jpeg" alt=""></td>
+        <td class="pt-4">Natasha Romanoff</td>
+        <td class="pt-4">Black Widow</td>
+        <td class="pt-2">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#natasha">
+                + d'infos?<br>
+                Frappe ici !!
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="natasha" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                        <div class="modal-body">
+                            <!-- BLACK WIDOW -->
+                            <div class="col">
+                                <h2 class="mt-2 text-center fw-normal"><u>BLACK WIDOW</u></h2>
+
+                                <img src="image/black widow.jpeg" class="img-fluid" alt="natasha">
+
+                                <p class="text-center">A dans une minute.
+                                </p>
+
+                                <h3 class="text-center"><u>Super Pouvoirs</u></h3>
+                                <p>maîtrise étendue des arts martiaux</p>
+                                <p class="text-center">
+
+                                    <ul>
+                                        <li><u>Vrai Nom:</u> Natasha Romanoff</li>
+
+                                        <li><u>Job:</u> Espionne</li>
+                                    </ul>
+
+
+                                </p>
+
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#natasha">
+                                Fermer
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Modal -->
+
+            </div>
+        </td>
+    </tr>
+    <!-- black panthere -->
+    <tr>
+        <td> <img class="test" src="image/the-black-panther-film-marvel-e1547662141410.jpeg" alt=""></td>
+        <td class="pt-4">prince T'Challa</td>
+        <td class="pt-4">Black Panther</td>
+        <td class="pt-2">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#tchalla">
+                + d'infos?<br>
+                Frappe ici !!
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="tchalla" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                        <div class="modal-body">
+                            <!--BLACK PANTHERE -->
+                            <div class="col">
+                                <h2 class="mt-2 text-center fw-normal"><u>BLACK PANTHER</u></h2>
+
+                                <img src="image/the-black-panther-film-marvel-e1547662141410.jpeg" class="img-fluid" alt="tchalla">
+
+                                <p class="text-center">Pour le Wakanda !
+                                </p>
+
+                                <h3 class="text-center"><u>Super Pouvoirs</u></h3>
+                                <p>Tire ses capacités de l'Herbe Mystique en forme de cœur, qui possède une dimension très spirituelle et qui est probablement liée au Vibranium.</p>
+                                <p class="text-center">
+
+                                    <ul>
+                                        <li><u>Vrai Nom:</u> prince T'challa</li>
+
+                                        <li><u>Job:</u> Roi du Wakanda</li>
+                                    </ul>
+
+
+                                </p>
+
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#tchalla">
+                                Fermer
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Modal -->
+
+            </div>
+        </td>
+    </tr>
+    <!-- thor -->
+    <tr>
+        <td> <img class="test" src="image/thor.jpeg" alt=""></td>
+        <td class="pt-4">Thor Odinson</td>
+        <td class="pt-4">Thor</td>
+        <td class="pt-2">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#thor">
+                + d'infos?<br>
+                Frappe ici !!
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="thor" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                        <div class="modal-body">
+                            <!-- THOR-->
+                            <div class="col">
+                                <h2 class="mt-2 text-center fw-normal"><u>THOR/u></h2>
+
+                                <img src="image/thor.jpeg" class="img-fluid" alt="thor">
+
+                                <p class="text-center">Quiconque possédera ce marteau, s'il s'en trouve digne recevra le pouvoir de Thor.
+                                </p>
+
+                                <h3 class="text-center"><u>Super Pouvoirs</u></h3>
+                                <p> Dieu du Tonnerre</p>
+                                <p class="text-center">
+
+                                    <ul>
+                                        <li><u>Vrai Nom:</u> Thor Odinson</li>
+
+                                        <li><u>Job:</u> Prince d'Asgard</li>
+                                    </ul>
+
+
+                                </p>
+
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter">
+                                Fermer
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Modal -->
+
+            </div>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+
+    </div>
+    </div>
+    <div class="row text-light text-center mt-4 pt-5 row bg-dark">
+        
+            <p>Mentions Légales</p>
+
+        
+
     </div>
 
     <!-- script -->
