@@ -1,10 +1,19 @@
 .img {
     background-size: contain;
-    background: url("image/Marvel_Logo.svg");
+    background: url("image/super-heros-marvel-min.jpeg");
 
 background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 
+}
+.background {
+    background: url("image/saison-des-super-héros-marvel.png");
+
+
+}
+.test{
+    height: 4rem;
+    width: auto;
 }
