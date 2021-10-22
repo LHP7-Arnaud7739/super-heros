@@ -1,10 +1,8 @@
 .img {
-    background-size: cover;
-    background: url("image/super-heros-marvel-min.jpeg");
-
+   background-size: auto;
+    background: url("image/background\ spiderman.jpeg") ;
+background-repeat: no-repeat;
 background-position: center;
-    background-repeat: no-repeat;
-    height: 25vh;
    
 
 }
